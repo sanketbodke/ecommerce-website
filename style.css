@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* //........top text ........// */
+
+:root {
+    /* //....... Color ........// */
+    --primary-color: #ff3c78;
+    --light-black: rgba(0, 0, 0, 0.89);
+    --black: #000;
+    --white: #fff;
+}
+
+
+/* //........top text ........// */
+
+.top-txt {
+    background-color: var(--black);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.945);
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.head a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945);
+    margin: 0 10px;
+}
+
+
+/* //........ Navbar ........// */
+
+nav {
+    box-shadow: 0 5px 4px rgb(146 161 176 / 15%);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: var(--white);
+    color: var(--black);
+    z-index: 100;
+}
+
+.navar_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.navar_container .logo {
+    font-size: 22px;
+}
+
+.navar_container .menu_items ul {
+    display: flex;
+}
+
+.navar_container .menu_items ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.navar_container .menu_items ul a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 18px;
+    position: relative;
+}
+
+.navar_container .menu_items ul a:after {
+    content: "";
+    position: absolute;
+    background: var(--primary-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navar_container .menu_items ul a:hover:after {
+    width: 100%;
+}
+
+
+/* //........ Home ........// */
+
+.home_page img {
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+
+.home_txt {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.home_txt p {
+    color: var(--primary-color);
+    font-weight: 600;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.home_txt h2 {
+    font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--light-black);
+}
+
+.home_txt .home_label p {
+    color: grey;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.home_txt button {
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
