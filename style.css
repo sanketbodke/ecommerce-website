@@ -150,6 +150,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .home_txt .bx-right-arrow-alt {
