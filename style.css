@@ -536,6 +536,46 @@ body {
     align-items: center;
 }
 
+.best-seller .red {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.best-seller .blue {
+    color: #8989ce;
+    cursor: pointer;
+}
+
+.best-seller .white {
+    color: var(--light-black);
+    cursor: pointer;
+}
+
+.best-seller .grey {
+    color: grey;
+    cursor: pointer;
+}
+
+.best-seller .brown {
+    color: rgb(175, 53, 53);
+    cursor: pointer;
+}
+
+.best-seller .yellow {
+    color: #ffff00;
+    cursor: pointer;
+}
+
+.best-seller .orange {
+    color: #ffa500;
+    cursor: pointer;
+}
+
+.best-seller .green {
+    color: #008000;
+    cursor: pointer;
+}
+
 .seller h2 {
     margin-top: 65px;
     margin-bottom: 20px;
@@ -561,6 +601,37 @@ body {
     color: #000;
     background-color: #000;
 }
+
+.best-seller .buy-now button,
+.best-seller .add-cart button {
+    padding: 10px 15px;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #f05e8a;
+    color: var(--white);
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    border: 1px solid #f05e8a;
+    transition: 0.5s;
+}
+
+.best-seller .buy-now button:hover,
+.best-seller .add-cart button:hover {
+    background-color: var(--white);
+    color: #f05e8a;
+    font-weight: 600;
+}
+
+
+/* .best-seller .add-cart button {
+    padding: 5px 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+} */
 
 
 /* //........ deal of week ........// */
@@ -902,4 +973,97 @@ footer {
     padding: 25px 0;
     font-size: 14px;
     color: var(--grey);
+}
+
+
+/* //........ contact ...... // */
+
+.contact {
+    margin-top: 45px;
+}
+
+iframe {
+    height: 72vh;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.form .form-txt {
+    flex-basis: 48%;
+}
+
+.form .form-txt h4 {
+    font-weight: 600;
+    color: var(--primary-color);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.form .form-txt h1 {
+    font-weight: 600;
+    color: var(--black);
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    color: var(--light-black);
+}
+
+.form .form-txt span {
+    color: var(--light-black);
+    font-size: 14px;
+}
+
+.form .form-txt h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px 0;
+    color: var(--light-black);
+}
+
+.form .form-txt p {
+    color: var(--light-black);
+    font-size: 14px;
+}
+
+.form .form-details {
+    flex-basis: 48%;
+}
+
+.form .form-details input[type="text"],
+.form .form-details input[type="email"] {
+    padding: 15px 20px;
+    color: var(--grey);
+    outline: none;
+    border: 1px solid var(--grey);
+    margin: 35px 15px;
+    font-size: 14px;
+}
+
+.form .form-details textarea {
+    padding: 15px 20px;
+    margin: 0 15px;
+    color: var(--grey);
+    outline: none;
+    border: 1px solid var(--grey);
+    font-size: 14px;
+    resize: none;
+}
+
+.form .form-details button {
+    padding: 15px 25px;
+    color: var(--white);
+    font-weight: 500;
+    background: var(--black);
+    outline: none;
+    border: none;
+    margin: 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
