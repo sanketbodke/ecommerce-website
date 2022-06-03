@@ -532,7 +532,6 @@ body {
 .best-seller {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -1066,4 +1065,97 @@ iframe {
     font-size: 14px;
     letter-spacing: 2px;
     cursor: pointer;
+}
+
+
+/* //....... Media Queries .......// */
+
+@media (max-width: 500px) {
+    .top-txt .head p,
+    .top-txt .head a {
+        font-size: 10px;
+    }
+    .home_txt h2,
+    .home_txt .home_label p {
+        display: none;
+    }
+    .home_txt {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+    }
+    .home_txt .home_social_icons {
+        display: flex;
+        flex-direction: column;
+    }
+    .best-seller {
+        display: flex;
+        flex-direction: column;
+    }
+    .l-news {
+        display: flex;
+        flex-direction: column;
+    }
+    .l-news .l-news1,
+    .l-news .l-news2 {
+        margin-bottom: 200px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container .content_1 {
+        margin-bottom: 30px;
+    }
+    .best-seller img {
+        padding-top: 40px;
+    }
+}
+
+@media(min-width: 501px) and (max-width: 768px) {
+    .top-txt .head p,
+    .top-txt .head a {
+        font-size: 10px;
+    }
+    .home_txt h2,
+    .home_txt .home_label p {
+        display: none;
+    }
+    .home_txt {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+    }
+    .home_txt .home_social_icons {
+        display: flex;
+        flex-direction: column;
+    }
+    .best-seller {
+        display: flex;
+        flex-direction: column;
+    }
+    .l-news {
+        display: flex;
+        flex-direction: column;
+    }
+    .l-news .l-news1,
+    .l-news .l-news2 {
+        margin-bottom: 200px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container .content_1 {
+        margin-bottom: 30px;
+    }
+    .best-seller img {
+        padding-top: 40px;
+    }
+}
+
+@media(orientation: landscape) and (max-height: 500px) {
+    .header {
+        height: 90vmax;
+    }
 }
