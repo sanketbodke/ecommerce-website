@@ -834,78 +834,72 @@ body {
 
 /* //........ Footer ...... // */
 
-
-/* .footer {
+footer {
     width: 100%;
-    background: #111111;
+    background: var(--black);
 }
 
-.footer .f-heading {
-    color: var(--white);
-    max-width: 1010px;
-    width: 90%;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.footer-container .content_1 img {
+    height: 25px;
+    width: 180px;
 }
 
-.footer .f-content {
+.footer-container {
     display: flex;
-    justify-content: space-evenly;
-    margin: 1.5rem;
+    justify-content: space-between;
+    padding: 60px 0;
 }
 
-.footer .f-content p {
-    margin-bottom: 1.3rem;
-    color: var(--grey);
+.footer-container h4 {
+    color: var(--white);
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-size: 18px;
 }
 
-.footer .f-content a {
+.footer-container a {
+    display: block;
     text-decoration: none;
     color: var(--grey);
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
-.footer .f-content a:hover {
-    border-bottom: 1px solid var(--grey);
-    ;
+.footer-container .content_1 p,
+.footer-container .content_4 p {
+    color: var(--grey);
+    margin: 25px 0;
+    font-size: 14px;
 }
 
-.footer .f-content h4 {
-    margin-bottom: 1.3rem;
-    font-size: 19px;
+.footer-container .content_4 input[type="email"] {
+    background-color: var(--black);
+    border: none;
+    color: var(--white);
+    outline: none;
+    padding: 15px 0;
+}
+
+.footer-container .content_4 .f-mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container .content_4 .bx {
     color: var(--white);
 }
 
-footer {
+.f-design {
+    width: 100%;
+    color: var(--white);
     text-align: center;
-    margin-bottom: 2rem;
 }
 
-footer hr {
-    margin: 2rem 0;
+.f-design .f-design-txt {
+    border-top: 1px solid var(--grey);
+    padding: 25px 0;
+    font-size: 14px;
+    color: var(--grey);
 }
-
-@media (max-width: 767px) {
-    .footer .f-content {
-        display: flex;
-        flex-direction: column;
-        font-size: 14px;
-    }
-    .footer {
-        position: unset;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .footer .f-content,
-    .footer {
-        font-size: 14px;
-    }
-}
-
-@media (orientation: landscape) and (max-height: 500px) {
-    .footer {
-        position: unset;
-    }
-} */
