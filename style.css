@@ -1092,6 +1092,8 @@ iframe {
     .best-seller {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
     }
     .l-news {
         display: flex;
@@ -1170,10 +1172,14 @@ iframe {
         display: flex;
         flex-direction: column;
     }
+    .form .form-details button {
+        margin-left: 0;
+    }
     .form .form-details input[type="text"],
     .form .form-details input[type="email"],
     .form .form-details textarea {
         width: 100%;
+        margin-left: 0;
     }
     .form .form-details input[type="text"] {
         margin-bottom: 0px;
@@ -1185,10 +1191,14 @@ iframe {
         display: flex;
         flex-direction: column;
     }
+    .form .form-details button {
+        margin-left: 0;
+    }
     .form .form-details input[type="text"],
     .form .form-details input[type="email"],
     .form .form-details textarea {
         width: 100%;
+        margin-left: 0;
     }
     .form .form-details input[type="text"] {
         margin-bottom: 0px;
