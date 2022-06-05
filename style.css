@@ -259,6 +259,11 @@ body {
     padding-top: 10px;
 }
 
+.home_txt a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .home_txt button {
     background-color: var(--black);
     color: var(--white);
