@@ -835,8 +835,9 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 0 50px;
-    color: var(--black);
+    color: var(--primary-color);
     position: relative;
+    font-weight: 600;
 }
 
 .l-news1 .news1-conte .date-news1 a::after {
@@ -844,19 +845,18 @@ body {
     position: absolute;
     background: #ff3c78;
     height: 3px;
-    width: 0;
+    width: 100%;
     left: 0;
     bottom: -10px;
     transition: 0.3s;
 }
 
 .l-news1 .news1-conte .date-news1 a:hover:after {
-    width: 100%;
+    width: 0%;
 }
 
 .l-news1 .news1-conte .date-news1 a:hover {
-    color: var(--primary-color);
-    font-weight: 600;
+    color: var(--black);
 }
 
 .l-news2 .news2-conte .date-news2 p {
@@ -876,8 +876,9 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 0 60px;
-    color: var(--black);
+    color: var(--primary-color);
     position: relative;
+    font-weight: 600;
 }
 
 .l-news2 .news2-conte .date-news2 a::after {
@@ -885,19 +886,18 @@ body {
     position: absolute;
     background: #ff3c78;
     height: 3px;
-    width: 0;
+    width: 100%;
     left: 0;
     bottom: -10px;
     transition: 0.3s;
 }
 
 .l-news2 .news2-conte .date-news2 a:hover:after {
-    width: 100%;
+    width: 0%;
 }
 
 .l-news2 .news2-conte .date-news2 a:hover {
-    color: var(--primary-color);
-    font-weight: 600;
+    color: var(--black);
 }
 
 .l-news3 .news3-conte .date-news3 p {
@@ -917,8 +917,9 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 0 60px;
-    color: var(--black);
+    color: var(--primary-color);
     position: relative;
+    font-weight: 600;
 }
 
 .l-news3 .news3-conte .date-news3 a::after {
@@ -926,19 +927,18 @@ body {
     position: absolute;
     background: #ff3c78;
     height: 3px;
-    width: 0;
+    width: 100%;
     left: 0;
     bottom: -10px;
     transition: 0.3s;
 }
 
 .l-news3 .news3-conte .date-news3 a:hover:after {
-    width: 100%;
+    width: 0%;
 }
 
 .l-news3 .news3-conte .date-news3 a:hover {
-    color: var(--primary-color);
-    font-weight: 600;
+    color: var(--black);
 }
 
 
